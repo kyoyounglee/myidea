@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>T.akara</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.11.1.min.js')}}"></script>
+	<link type="text/css" rel="stylesheet" href="{{ (url_for('static', filename='css/southamerica-css.css') }}"/> <!-- south america file css -->
+	<script type='text/javascript' src="{{ url_for('static', filename='js/jquery-ui.min.js')}}"></script>
+	<script type='text/javascript' src="{{ url_for('static', filename='js/jquery-sa.js')}}"></script> <!-- south america file js -->
+	<script type='text/javascript' src="{{ url_for('static', filename='js/jquery-index.js')}}"></script> 
+	<!-- about menu -->
+	<link type="text/css" rel="stylesheet" href="{{ (url_for('static', filename='css/square_menu.css') }}"/>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.square_menu.js')}}"></script>
+	<!-- about menu finish -->
+	<!-- gallery -->
+	<script type='text/javascript' src="{{ url_for('static', filename='js/jquery.mixitup.min.js')}}"></script>
+	<!-- finish -->
+	<!-- font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href="{{ (url_for('static', filename='fonts/typicons.min.css') }}" />
+</head>
+<body>
+	<div id="backtoindex">GO BACK</div>
+
+	<div id="contents">
+		<div id="left">
+			<p class="subject2"><span class="typcn typcn-star-full-outline size3"></span>MAP</p>
+			<div id="map_wrap">
+				<IMG SRC="static/res/img/map.gif" WIDTH=302 HEIGHT=400> 
+					<button class="filter" data-filter=".category-1"></button>
+					<button class="filter" data-filter=".category-2" SHAPE="circle"></button>
+					<button class="filter" data-filter=".category-3" SHAPE="circle"></button>
+					<button class="filter" data-filter=".category-4" SHAPE="circle"></button>
+					<button class="filter" data-filter=".category-5" SHAPE="circle"></button>
+				</div>
+				<p class="text-right">Click the names of the countries</p>
+				<button class="filter" data-filter="all"><b><p class="red korea-noindent goback"><span class="typcn typcn-arrow-left-outline size3"></span> SEE ALL THE PICS!</b></p></button>
+			</div>
+
+			<div id="center">
+				<p class="subject">Travel in South America</p>
+				<br>
+				<p class="korea">: 2014. 1. 26. ~ 2014. 5. 19. (114일)</p>
+				<p class="korea">: Brazil, Argentina, Chile, Bolivia, Peru, Ecuador, Colombia</p>
+				<p class="korea text-right">+ USA, Portugal, Spain</p>
+				<br>
+				<p class="subject2"><span class="typcn typcn-star-full-outline size3"></span>One of the videos I have</p>
+				<iframe width="320" height="210" src="http://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=9D5CCF5E730358391C75832111768D37C4DD&outKey=V127b9e67d06a8e0d486afb52d19c6f8e147afa1629095d361e7dfb52d19c6f8e147a" frameborder="no" scrolling="no"></iframe>
+			</div>
+
+			<div id="right">
+				<div id="container" class="container">
+					<div class="mix category-1" data-myorder="1"><img class="img" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/1660352_648777051848256_2067204207_n.jpg" alt="saopaulo"/></div>
+					<div class="mix category-1" data-myorder="2"><img class="img" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/1625588_650567148335913_84115374_n.jpg" alt="rio"/></div>
+					<div class="mix category-1" data-myorder="3"><img class="img" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/p417x417/1620617_650567545002540_1204849730_n.jpg" alt="rio2"/></div>
+					<div class="mix category-1" data-myorder="4"><img class="img" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/1743661_653849828007645_733459333_n.jpg" alt="iguazu"/></div>
+					<div class="mix category-2" data-myorder="5"><img class="img" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/t1.0-9/1507993_665039916888636_471076000_n.jpg" alt="buenos"/></div>
+					<div class="mix category-2" data-myorder="6"><img class="img" src="static/res/img/buenos2.jpg" alt="buenos2"/></div>
+					<div class="mix category-2" data-myorder="7"><img class="img" src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/1622124_665406043518690_1504438511_n.jpg" alt="bigice"/></div>
+					<div class="mix category-2" data-myorder="8"><img class="img" src="https://scontent-a.xx.fbcdn.net/hphotos-xap1/t1.0-9/1098221_665406580185303_862777689_n.jpg" alt="bigice2"/></div>
+					<div class="mix category-2" data-myorder="9"><img class="img" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/1545541_665426666849961_586394184_n.jpg" alt="calafate"/></div>
+					<div class="mix category-2" data-myorder="10"><img class="img" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/1622837_665552690170692_1394755757_n.jpg" alt="elchalten"/></div>
+					<div class="mix category-3" data-myorder="11"><img class="img" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1231293_671963462862948_277980860_n.jpg?oh=6b3ccb4326f0a1d29da0f7a5f31161f5&oe=541435D3&__gda__=1411302304_4889d3afa9217a54fab2630965c02b72" alt="atacama"/></div>
+					<div class="mix category-3" data-myorder="12"><img class="img" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/10153723_677539362305358_689736801_n.jpg" alt="uyuni"/></div>
+					<div class="mix category-3" data-myorder="13"><img class="img" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1231293_671963462862948_277980860_n.jpg?oh=6b3ccb4326f0a1d29da0f7a5f31161f5&oe=541435D3&__gda__=1411302304_4889d3afa9217a54fab2630965c02b72" alt="atacama"/></div>
+					<div class="mix category-4" data-myorder="14"><img class="img" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/10153723_677539362305358_689736801_n.jpg" alt="uyuni"/></div>
+					<div class="mix category-4" data-myorder="15"><img class="img" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/1622843_677543082304986_1316371136_n.jpg" alt="uyuni2"/></div>
+					<div class="mix category-4" data-myorder="16"><img class="img" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/t1.0-9/1964978_677542548971706_193674299_n.jpg" alt="uyuni"/></div>
+					<div class="mix category-5" data-myorder="17"><img class="img" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/10152414_688590654533562_4160601217860275449_n.jpg" alt="macchupicchu"/></div>
+					<div class="mix category-5" data-myorder="18"><img class="img" src="https://scontent-b.xx.fbcdn.net/hphotos-xap1/t1.0-9/10259891_688601581199136_982470188652143029_n.jpg" alt="peru"/></div>
+
+
+					<div class="gap"></div>
+					<div class="gap"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
