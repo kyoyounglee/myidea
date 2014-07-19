@@ -1,0 +1,305 @@
+/* Fonts icon */
+
+@font-face {
+	font-family: 'typicons';
+	src: url("../fonts/typicons.eot");
+	src: url("../fonts/typicons.eot?#iefix") format('embedded-opentype'),
+	url("../fonts/typicons.woff") format('woff'),
+	url("../fonts/typicons.ttf") format('truetype'),
+	url("../fonts/typicons.svg#typicons") format('svg');
+	font-weight: normal;static/fonts
+	font-style: normal;
+}
+
+/* icon finish */
+
+
+body {
+	background-color: #2E3B4E;
+}
+
+#contents {
+	width: 1100px;
+	overflow: auto;
+	background-color: white;
+	margin: auto;
+	margin-top:3.5%;
+	position: relative;
+}
+
+#left, #center {
+	float: left;
+	padding: 15px;
+}
+
+
+#right {
+	float: right;
+	padding: 15px;
+}
+
+p {
+	font-family: 'open sans';
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	font-weight: 300;   
+	color: #4a4a4a;
+	line-height: 70%;
+}
+
+.red {
+	color: red;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.subject {
+	font-family: 'open sans';
+	letter-spacing: -2px;
+	font-size: 33px;
+	color: black;
+	margin-bottom: 0px;
+}
+
+.subject2 {
+	font-family: 'Verdana';
+	letter-spacing: -0.5px;
+	font-size: 11px;
+	color: #4A4A4A;
+	font-weight: bold;
+}
+
+.size1 { /* span */
+	font-size: 50px;
+}
+
+.size2 {
+	font-size: 35px;
+}
+
+.size3 { /* span */
+	font-size: 22px;
+}
+
+
+
+.korea {
+	font-family: 'Verdana';
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height: 70%;
+	color: #4A4A4A;
+	text-indent: 30px;
+}
+
+.korea-noindent {
+	font-family: 'Verdana';
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height: 70%;
+	color: #4A4A4A;
+}
+
+#backtoindex{
+	font-size: 42px;
+	z-index: 10;
+	letter-spacing: 5px;
+	color: white;
+	position: absolute;
+	font-weight: bold;
+	left:150px;
+	top: 40px;
+	text-shadow: 2px 2px #2E3B4E;
+}
+
+/* 갤 러 리 를 위 해 서 있 는 것 들 */
+
+
+button{
+	display: inline-block;
+	padding: .4em .8em;
+	background: Transparent;
+	border: 0;
+	color: #ddd;
+	font-size: 16px;
+	font-weight: 300;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#map_wrap {
+	position:relative;
+}
+
+
+#map_wrap button[data-filter=".category-1"] {
+	position:absolute;
+	top:115px;
+	left:140px;
+	width: 100px;
+	height: 50px;
+	display:block;
+	z-index: 100;
+}
+
+#map_wrap button[data-filter=".category-2"] {
+	position:absolute;
+	top:265px;
+	left:100px;
+	width: 80px;
+	height: 50px;
+	display:block;
+}
+
+#map_wrap button[data-filter=".category-3"] {
+	position:absolute;
+	top:230px;
+	left:60px;
+	width: 80px;
+	height: 40px;
+	display:block;
+}
+
+#map_wrap button[data-filter=".category-4"] {
+	position:absolute;
+	top:160px;
+	left:90px;
+	width: 80px;
+	height: 40px;
+	display:block;
+}
+
+#map_wrap button[data-filter=".category-5"] {
+	position:absolute;
+	top:125px;
+	left:40px;
+	width: 65px;
+	height: 40px;
+	display:block;
+}
+
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, button{
+	font-family: 'open sans';
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	font-weight: 300;   
+	color: #4a4a4a;
+	line-height: 70%;
+}
+
+	.controls{
+		padding: 2%;
+		background: #333;
+		color: #eee;
+	}
+
+	label{
+		font-weight: 300;
+		margin: 0 .4em 0 0;
+	}
+
+	button.active{
+		background: transparent;
+	}
+
+	button:focus{
+		outline: 0 none;
+	}
+
+	button + label{
+		margin-left: 1em;
+	}
+
+
+	.container{
+		padding: 2% 2% 0;
+		text-align: justify;
+		font-size: 0.1px;
+		background: #68b8c4;
+		width: 370px;
+
+		-webkit-backface-visibility: hidden;
+	}
+
+	.container .img {
+		width: 100%;
+		height: 100px;
+	}
+
+	.container:after{
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+
+	.container .mix,
+	.container .gap{
+		display: inline-block;
+		width: 49%;
+	}
+
+	.container .mix{
+		text-align: left;
+		background: #03899c;
+		margin-bottom: 2%;
+		display: none;
+	}
+
+	.container .mix.category-1{
+		border-top: 2px solid black;
+	}
+
+	.container .mix.category-2{
+		border-top: 2px solid green;
+	}
+
+	.container .mix.category-3{
+		border-top: 2px solid blue;
+	}
+
+	.container .mix.category-4{
+		border-top: 2px solid white;
+	}
+
+	.container .mix.category-5{
+		border-top: 2px solid red;
+	}
+
+	.container .mix:after{
+		content: attr(data-myorder);
+		color: white;
+		font-size: 16px;
+		display: inline-block;
+		vertical-align: top;
+		padding: 4% 6%;
+		font-weight: 700;
+	}
+
+	.container .mix:before{
+		content: '';
+		display: inline-block;
+		padding-top: 60%;
+	}
+
+	@media all and (min-width: 420px){
+		.container .mix,
+		.container .gap{
+			width: 32%;
+		}
+	}
+
+	@media all and (min-width: 640px){
+		.container .mix,
+		.container .gap{
+			width: 47%;
+		}
+	}

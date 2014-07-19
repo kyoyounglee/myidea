@@ -1,0 +1,44 @@
+application: monicapackers
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+  mime_type: text/html
+
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+  mime_type: text/html
+
+- url: /ideapage.html
+  static_files: ideapage.html
+  upload: ideapage.html
+  mime_type: text/html
+
+- url: /southamerica.html
+  static_files: southamerica.html
+  upload: southamerica.html
+  mime_type: text/html
+
+- url: /static/js
+  static_dir: static/js
+  mime_type: text/javascript
+
+- url: /static/css
+  static_dir: static/css
+  mime_type: text/css
+
+- url: /static/fonts
+  static_dir: static/fonts
+
+- url: /static/res/img
+  static_dir: static/res/img
+  mime_type: image/png
+
+- url: /static/res/audio
+  static_dir: static/res/audio
+  mime_type: audio/mp3

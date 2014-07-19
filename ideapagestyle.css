@@ -1,0 +1,41 @@
+#mainicon {
+	color: #FF7B24;
+}
+
+#all {
+	margin-top: 50px;
+}
+
+.thumbnail img {
+	min-height: 100px;
+	height: 200px;
+}
+
+#text {
+	border-left: 1px dashed #FFECC9;
+}
+
+.glyphicon {
+	color: #69CDFF;
+}
+
+.explanation {
+	margin: 10px;
+}
+
+
+#introduce{
+	padding-top: 30px;
+}
+
+#hot {
+	color: red;
+}
+
+#identity {
+	padding-top: 30px;
+}
+
+#contents {
+	padding-top: 30px;
+}
